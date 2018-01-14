@@ -1,7 +1,6 @@
 # imaptar
 
-[Imaptar](https://github.com/XS4ALL/imaptar/) is a utility to dump an entire
-IMAP-mailbox, INBOX and all folders, in maildir format to a tar file.
+[Imaptar](https://github.com/XS4ALL/imaptar/) is a utility to dump an entire IMAP-mailbox, INBOX and all folders, in maildir format to a tar file.
 
 ## Usage
 

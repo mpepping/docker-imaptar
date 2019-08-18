@@ -1,6 +1,6 @@
 # imaptar
 
-[Imaptar](https://github.com/XS4ALL/imaptar/) is a utility to dump an entire IMAP-mailbox, INBOX and all folders, in maildir format to a tar file.
+[imaptar](https://github.com/XS4ALL/imaptar/) is a utility to dump an entire IMAP-mailbox, INBOX and all folders, in maildir format to a tar file.
 
 ## Usage
 
@@ -28,7 +28,7 @@ To run `imaptar` and write a `.tgz` file to a local backup directory:
 
 ```bash
 export IMAPPASS="foo"
-docker run -ti --rm -e IMAPPASS -v $PWD/backup:/backup mpepping/imaptar ; \
+docker run -ti --rm -e IMAPPASS -v $PWD/backup:/backup mpepping/imaptar \
   -s imap.xs4all.nl -u myuser -E IMAPPASS -z -t /backup/maildir.tar.gz
 ```
 
